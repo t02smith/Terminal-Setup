@@ -12,4 +12,4 @@ cd commands
 ./setup-commands.sh
 cd ..
 
-zsh
+echo "Terminal is now setup - run `zsh`"
