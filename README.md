@@ -11,8 +11,5 @@ You can also use this one line setup
 ```sh
 git clone https://github.com/t02smith/Terminal-Setup.git /tmp/terminal-setup \
     && cd /tmp/terminal-setup \
-    && ./setup.sh \
-    && cd ~ \
-    && rm -rf /terminal-setup \
-    && zsh
+    && ./setup.sh 
 ```

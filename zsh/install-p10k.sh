@@ -26,7 +26,6 @@ if [ ! -f ~/.p10k.zsh ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
     sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
     cp ./.p10k.zsh ~/.p10k.zsh
-    echo '[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh' >> ~/.zshrc
 else
     echo "Found existing p10k installation - skipping"
 fi
